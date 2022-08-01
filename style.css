@@ -8,6 +8,11 @@ img {
 
 .mb-bgc-blu {
     background-color: #2c3e50;
+
+}
+
+.mb-bgc-lightblue {
+    background-color: #3a546d;
 }
 
 .mb-bgc-green {
@@ -19,11 +24,57 @@ img {
     height: auto;
 }
 
+input[type="text-area"] {
+    height: 200px;
+}
 
-/*.line:before {
+.line:before {
     content: "";
+    display: inline-block;
     background-color: white;
     width: 100px;
-    height: 10px;
-    transform: translate(-150px);
-}*/
+    height: 8px;
+    border-radius: 25px;
+}
+
+.line:after {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 8px;
+    border-radius: 25px;
+}
+
+.lineb:before {
+    content: "";
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 8px;
+    border-radius: 25px;
+}
+
+.lineb:after {
+    content: "";
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 8px;
+    border-radius: 25px;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.circle {
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 20px;
+}
+
+.color {
+    color: #1cb799;
+}
