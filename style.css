@@ -72,6 +72,10 @@ input[type="text-area"] {
     width: 100%;
 }
 
+.iconsfooter {
+    width: 100%;
+}
+
 .circle {
     padding: 10px 15px;
     border-radius: 50%;
